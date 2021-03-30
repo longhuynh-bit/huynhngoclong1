@@ -1,0 +1,29 @@
+.tong {
+    border: 5px solid black;
+    width: 410px;
+    height: 350px;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid blue;
+    width: 330px;
+    height: 40px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul li a {
+    display: block;
+    padding: 0px 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+}
+
+ul li a.current {
+    background-color: aqua;
+}

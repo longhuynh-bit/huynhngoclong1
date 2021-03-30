@@ -1,0 +1,15 @@
+ul li {
+    /* bỏ dấu chấm  */
+    list-style-type: none;
+    /* làm cho chữ nằm lên cùng 1 hàng */
+    display: inline;
+    margin: 0px 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#Question1 #Question2 #Question3 {
+    height: 800px;
+}
