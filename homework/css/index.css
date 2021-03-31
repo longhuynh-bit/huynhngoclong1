@@ -1,0 +1,116 @@
+.tong {
+    margin: 0 auto;
+    width: 90%;
+    height: 700px;
+    background-color: white;
+    /* border-radius: 5% 5% 5% 5%; */
+    border: 2px solid black;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.header_content img {
+    float: left;
+    margin-right: 3em;
+}
+
+hr {
+    width: 80%;
+    border-top: 4px solid yellow;
+}
+
+.carousel nav {
+    border-top: 2px solid #D7DF01;
+    border-bottom: 2px solid #D7DF01;
+}
+
+.carousel ul li {
+    list-style: none;
+}
+
+.carousel ul li a {
+    color: green;
+}
+
+.carousel ul li a.Active {
+    color: #D7DF01;
+}
+
+
+/* .header_content h1 {
+    float: right;
+    width: 70%; */
+
+
+/* chiều cao của đối tượng */
+
+
+/* height: 200px; */
+
+
+/* border của đối tượng */
+
+
+/* border: 1px solid green; */
+
+
+/* canh giữa đối tượng theo chiều ngang */
+
+
+/* text-align: center; */
+
+
+/* canh giữ đối tượng theo chiều dọc */
+
+
+/* line-height: 200px;
+    color: rgb(185, 185, 7);
+    text-transform: uppercase;
+} */
+
+
+/* 
+.Main_content h2 {
+    font-size: 35px;
+}
+
+.Main_content h3 {
+    font-size: 27px;
+}
+
+.Main_content .Main_id {
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: normal;
+}
+
+.Main_content .Main1 {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+
+.section {
+    width: 100%;
+}
+
+.section_left {
+    float: left;
+    border-right: 1px solid #D7DF01;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 65%;
+}
+
+.section_right {
+    float: left;
+    margin: 10px;
+    width: 15%;
+}
+
+footer p {
+    float: right;
+    font-size: small;
+}
