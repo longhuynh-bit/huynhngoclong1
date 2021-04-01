@@ -1,7 +1,8 @@
 .tong {
     margin: 0 auto;
+    padding: 30px;
     width: 90%;
-    height: 700px;
+    height: 600px;
     background-color: white;
     /* border-radius: 5% 5% 5% 5%; */
     border: 2px solid black;
@@ -16,26 +17,39 @@ body {
     margin-right: 3em;
 }
 
+header {
+    border-bottom: 2px solid #D7DF01;
+}
+
 hr {
     width: 80%;
     border-top: 4px solid yellow;
 }
 
-.carousel nav {
+
+/* .carousel nav {
     border-top: 2px solid #D7DF01;
+    border-bottom: 2px solid #D7DF01;
+} */
+
+.carousel ul {
+    height: 30px;
     border-bottom: 2px solid #D7DF01;
 }
 
 .carousel ul li {
     list-style: none;
+    float: left;
+    border-right: 2px solid #D7DF01;
 }
 
 .carousel ul li a {
     color: green;
+    margin: 13 0px 15px;
 }
 
-.carousel ul li a.Active {
-    color: #D7DF01;
+ul li a:hover {
+    color: yellow;
 }
 
 
@@ -101,13 +115,17 @@ hr {
     padding-right: 20px;
     margin-top: 10px;
     margin-bottom: 20px;
-    width: 65%;
+    width: 55%;
+}
+
+.section_left h2 {
+    margin: 0px;
 }
 
 .section_right {
     float: left;
     margin: 10px;
-    width: 15%;
+    width: 40%;
 }
 
 footer p {

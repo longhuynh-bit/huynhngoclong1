@@ -1,0 +1,47 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+#t1,
+#t2,
+#t3,
+#t4,
+#t5 {
+    background-color: yellow;
+}
+
+td:nth-child(2) {
+    color: black;
+}
+
+.tfoot {
+    background-color: yellow;
+}
+
+.tbody td {
+    color: red;
+}
+
+td {
+    color: blue;
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px solid grey;
+}
+
+
+/* thead,
+tfoot {
+    background-color: aquamarine;
+}
+
+td:nth-child(2) {
+    color: red;} */
