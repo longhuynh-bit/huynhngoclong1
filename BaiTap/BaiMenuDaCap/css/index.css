@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    /* canh giữa cách lề 10% */
+    margin: 5px 10%;
+    background: #00FFCC;
+    width: 50%;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    /* bỏ dấu chấm mặc định của li */
+    /* kẻ đường bên trái và bên phải của li */
+    border-right: 1px solid #00FFCC;
+    border-left: 1px solid #00FFCC;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 25px;
+    /* tăng khoảng cách giữa các dòng */
+    line-height: 50px;
+    /* bỏ dấu gạch dưới thẻ a */
+    text-decoration: none;
+}
+
+nav ul li:first-child {
+    border-left: none;
+    /* bỏ đường kè trái của phần tử đầu tiên */
+}
+
+nav ul li:first-child a {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+nav>ul li:first-child a {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+
+/* Khi hover đến li, tô màu cho thẻ a */
+
+nav ul li:hover>a {
+    background: green;
+    opacity: .7;
+    color: white;
+}
+
+
+/*menu con*/
+
+
+/*Ẩn các menu con cấp 1,2,3*/
+
+nav li ul {
+    display: none;
+    min-width: 350px;
+    position: absolute;
+}
+
+nav li>ul li {
+    width: 100%;
+    border: none;
+    background: #00FFCC;
+    text-align: left;
+}
+
+nav li>ul li:first-child a {
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+nav li>ul li:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+nav li>ul li:last-child a {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+/*khi hover thì hiện menu con*/
+
+nav li:hover>ul {
+    display: block;
+}
+
+
+/*Hiển thị menu con cấp 2,3,4 bên cạnh phải*/
+
+nav>ul li>ul li>ul {
+    margin-left: 352px;
+    margin-top: -50px;
+}

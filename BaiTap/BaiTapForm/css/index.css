@@ -1,0 +1,46 @@
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.conternal {
+    width: 45%;
+    margin: 40px auto;
+    height: 100%;
+    border: 1px solid black;
+}
+
+h3 {
+    border-bottom: 1px solid #ccc;
+    width: 99%;
+    background-color: #ccc;
+    padding: 9px 4px;
+}
+
+.first,
+.second {
+    width: 96%;
+    margin: 5px 100px;
+}
+
+select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 35px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#service {
+    margin-right: 8px;
+}
+
+input[type=text] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}

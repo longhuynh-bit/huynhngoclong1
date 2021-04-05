@@ -8,6 +8,10 @@ html {
     padding: 0px 50px;
 }
 
+h2 {
+    margin-bottom: 20px;
+}
+
 
 /* tbody */
 
@@ -15,21 +19,15 @@ html {
     width: 100%;
 }
 
-header {
+.first {
     float: left;
-    width: 45%;
+    width: 25%;
     margin-right: 25px;
-}
-
-section {
-    float: left;
-    width: 45%;
-    margin-left: 10px;
 }
 
 .tong {
     border: 1px solid black;
-    width: 40%;
+    width: 90%;
     padding: 0px 15px;
 }
 
@@ -54,18 +52,40 @@ ul li {
 }
 
 ul li a {
-    color: aqua;
+    color: rgb(0, 140, 255);
+}
+
+.second {
+    float: left;
+    width: 45%;
+    margin-left: 10px;
 }
 
 .hieu {
     border: 1px solid black;
-    width: 40%;
-    height: 500px;
+    width: 55%;
+    height: 410px;
     padding: 8px 25px;
 }
 
+.name {
+    width: 100%;
+}
+
+.name .left {
+    float: left;
+    width: 45%;
+    margin-right: 20px;
+}
+
+.name .right {
+    float: left;
+    width: 45%;
+    margin-left: 20px;
+}
+
 input[type=register] {
-    background-color: darkgrey;
+    background-color: rgb(199, 195, 195);
     width: 70px;
     margin: 8px 0px;
     padding: 8px 8px;

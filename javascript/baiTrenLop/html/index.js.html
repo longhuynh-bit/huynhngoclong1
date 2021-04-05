@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index javascript</title>
+    <!-- Internal -->
+
+</head>
+
+<body>
+    <!-- Inline -->
+    <p onclick="alert('Text click')">click me</p>
+    <p id="demo">Text click</p>
+    <div id="test_external" onclick="testExternal();">Demo external</div>
+    <div id="change_content">Day la noi dung dau tien</div>
+    <a href="#" onmouseover="change_content();" onmouseleave="change_content_2();">change content</a>
+    <!-- có thể thay đổi thuộc tính HTML -->
+    <img src="../img/26e83ca703da2ae0cf344985bd8f5fa1.jpg" alt="Test image" id="change_image" width="200px" height="200px">
+    <a href="#" onclick="changeImage();">change Image</a>
+    <script type="text/javascript">
+        document.getElementById("demo").innerHTML = "hello";
+        document.getElementById("demo").style.color = "red";
+    </script>
+    <script type="text/javascript" src="../js/index.js"></script>
+</body>
+
+</html>
