@@ -1,0 +1,128 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    display: flex;
+    width: 800px;
+    height: auto;
+}
+
+.header {
+    width: 800px;
+    height: 28px;
+    margin-top: 10px;
+    border-bottom: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hd1 {
+    float: right;
+    margin-left: 2px;
+    padding: 5px;
+}
+
+.hd2 {
+    display: inline-table;
+    float: right;
+    border-right: 2px solid black;
+    margin-right: 2px;
+    padding: 5px;
+}
+
+.both {
+    margin-top: 5px;
+    width: 100%;
+    height: 100px
+}
+
+.left {
+    float: left;
+    width: 40%;
+    height: 100px;
+    text-align: center;
+}
+
+.boder {
+    border: 1px solid black;
+    width: 300px;
+    margin-top: 5px;
+}
+
+.madt {
+    width: 230px;
+    margin-top: 5px;
+    padding: 10px 15px;
+    border: 1px solid black;
+}
+
+.right {
+    width: 60%;
+    height: 100px;
+    float: right;
+    text-align: center;
+}
+
+.boder2 {
+    border: 1px solid black;
+    margin-top: 15px;
+}
+
+.both2 {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.leftt {
+    float: left;
+    margin-top: 10px;
+    width: 60%;
+}
+
+.rightt {
+    float: right;
+    width: 40%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.four {
+    width: 100%;
+}
+
+.f1 {
+    width: 20%;
+    float: left;
+    margin-left: 15px;
+}
+
+.c2 {
+    clear: both;
+}
+
+.c2a {
+    margin-left: 20px;
+}
+
+.c2b {
+    margin-left: 45px;
+    margin-top: 5px;
+}
+
+.footer {
+    width: 100%;
+}
+
+.left2 {
+    float: left;
+    margin: 10px 30px;
+}
+
+.right2 {
+    float: right;
+    margin-top: 10px;
+}
