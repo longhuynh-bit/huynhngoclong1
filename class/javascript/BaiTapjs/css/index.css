@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 400px;
+    margin: 0 auto;
+}
+
+input[type=text] {
+    display: block;
+    width: 380px;
+    padding: 10px 80px 10px 10px;
+    margin: 20px 10px;
+}
+
+input[type=submit] {
+    display: block;
+    width: 20%;
+    margin: 20px 40%;
+    padding: 5px 10px;
+    background-color: rgb(8, 131, 90);
+}
