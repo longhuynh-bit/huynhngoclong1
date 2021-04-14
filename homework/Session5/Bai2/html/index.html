@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="tong">
+        <h1>Liên hệ với chúng tôi</h1>
+        <form action="" method="post">
+            <label>Họ và tên</label>
+            <br>
+            <span id="errorname"></span>
+            <input type="text" id="fullname" name="fullname" value="" placeholder="Nhập tên">
+
+            <label>Email</label>
+            <br>
+            <span id="second"></span>
+            <input type="text" id="email" name="email" value="" placeholder="Nhập Email">
+            <label>Tiêu đề</label>
+            <br>
+            <span id="thist"></span>
+            <input type="text" id="tieude" value="" name="tieude" placeholder="Nhập tiêu đề">
+            <label>Nội dung</label>
+            <br>
+            <span id="cuoi"></span>
+            <textarea id="noidung" value="" name="noidung">Nhập nội dung</textarea>
+            <input onclick="send(); return false;" type="submit" value="Gửi">
+        </form>
+    </div>
+    <script src="../js/index.js">
+    </script>
+</body>
+
+</html>
