@@ -33,7 +33,8 @@ console.log(student);
 
 //Bai5
 for (var i = 0; i < student.length; i++) {
-    if (23 <= student.length[i][1] <= 26) {
+    if (23 <= student.length[i][1] && student.length[i][1] <= 26) {
         student.splice(i, 1);
     }
+    console.log(student);
 }
