@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Đăng nhập</title>
+</head>
+
+<body>
+    <div class="tong">
+        <h1>THÔNG TIN NHÂN VIÊN </h1>
+        <form action="" method="post">
+            <div class="content">
+                <label>Họ và tên khách hàng:</label>
+                <br>
+                <span id="errorname"></span>
+                <input type="text" id="fullname" name="fullname" placeholder="Họ và tên khách hàng" value="">
+                <label>Số đầu kỳ:</label>
+                <br>
+                <span id="Beginning"></span>
+                <input type="text" id="sodauky" name="sodauky" value="">
+                <label>Số cuối kỳ:</label>
+                <br>
+                <span id="endOfTerm"></span>
+                <input type="text" id="socuoiky" name="socuoiky" value="">
+            </div>
+            <div class="content">
+                <label> Giới tính:</label>
+                <input type="radio" name="gioitinh" value="Nam">Nam
+                <input type="radio" name="gioitinh" value="Nữ">Nữ
+            </div>
+            <div class="content">
+                <label>Ngày sinh:</label>
+                <br>
+                <span id=dateOfBirth></span>
+                <input type="date" id="birthday" name="fullname" value="">
+                <label>Ngày đầu kỳ:</label>
+                <input type="date" id="ngaydauky" value="">
+                <label>Ngày Cuối kỳ:</label>
+                <input type="date" id='ng' value="">
+            </div>
+            <div class="content">
+                <input id="submitBox" onclick="send(); return false;" type="submit" value="Gửi">
+            </div>
+        </form>
+    </div>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>

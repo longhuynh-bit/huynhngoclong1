@@ -4,18 +4,29 @@ var student = [
     ['nguyễn văn d', 22, 'nguyenvand@gmail', 'Đà Nẵng'],
     ['nguyễn văn e', 20, 'nguyenvane@gmail', 'Sài Gòn'],
 ]
+document.writeln('Số học viên của lớp học:');
+document.writeln('<br/>');
 for (var i = 0; i < student.length; i++) {
-    console.log(i + 1, '.', student[[i]]);
+    document.writeln(student[i]);
+    document.writeln('<br/>');
 }
-console.log(student);
+
+
 
 //Bai2
+document.writeln('Thêm 2 sinh viên vào lớp:')
+document.writeln('<br/>');
 var newStudent = [
     ['lich', 18, 'huynhngoclonh@gmail.com', 'Huế'],
     ['li', 20, 'huynhnh@gmail.com', 'Cà Mau'],
 ];
-student.push(newStudent);
-console.log(student);
+// for (var i = 0; i < student.length; i++) {
+//     student.push(newStudent);
+//     document.writeln(student);
+// }
+// document.writeln('<br/>');
+
+
 //bai4
 for (var i = 0; i < student.length; i++) {
     if (student[i][3] == 'Đà Nẵng') {
