@@ -3,6 +3,8 @@ function send() {
     var sodauky = document.getElementById("sodauky").value;
     var socuoiky = document.getElementById('socuoiky').value;
     var birthday = document.getElementById("birthday").value;
+    var ngaydauky = document.getElementById('ngaydauky').value;
+    var ngaycuoiky = document.getElementById('ngaycuoiky').value;
     if (fullname == "") {
         document.getElementById("errorname").innerHTML = "Vui lòng nhập họ tên!!!";
     } else {
@@ -23,18 +25,20 @@ function send() {
     } else {
         document.getElementById("dateOfBirth").innerHTML = "";
     }
-}
+    if (ngaydauky == "") {
+        document.getElementById('firstDay').innerHTML = "Vui lòng nhâp vào!!!";
+    } else {
+        document.getElementById('firstDay').innerHTML = "";
+    }
+    if (ngaycuoiky == "") {
+        document.getElementById('endDay').innerHTML = "Vui lòng nhập vào!!!";
+    } else {
+        document.getElementById('endDay').innerHTML = "";
+    }
+    if ((sodauky > socuoiky) || (sodauky <= 0) || (ngaydauky > ngaycuoiky)) {
+        alert('bạn đã nhập sai,bạn nên nhập lại');
+    }
+    //Tính tiền điện:50 số dầu giá 1000 vnd/số, 100 số tiếp theo 2000 vnd/số, từ 200 trở lên thì là 3500 vnđ/số
+    var money = 0;
 
-function checkNumberAndDate() {
-    var sodauky = document.getElementById('sodauky').value;
-    var socuoiky = document.getElementById('socuoiky').value;
-    if (parseFloat(sodauky) > parseFloat(socuoiky)) {
-        alert('số đầu kỳ ko được lớn hơn ngày cuối kỳ');
-    }
-    var ngaydauky = document.getElementById('ngaydauky').value;
-    var ngaycuoiky = document.getElementById('ngaycuoiky').value;
-    if (ngaydauky > ngaycuoiky) {
-        alert('Ngày đầu kỳ ko được lớn hơn ngày cuối kỳ');
-    }
-    checkNumberAndDate();
 }

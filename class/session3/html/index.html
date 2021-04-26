@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="shortcut icon" href="./imgs/favico.png" type="image/x-icon">
     <title>Đăng nhập</title>
 </head>
 
@@ -38,14 +39,19 @@
                 <span id=dateOfBirth></span>
                 <input type="date" id="birthday" name="fullname" value="">
                 <label>Ngày đầu kỳ:</label>
+                <br>
+                <span id="firstDay"></span>
                 <input type="date" id="ngaydauky" value="">
                 <label>Ngày Cuối kỳ:</label>
-                <input type="date" id='ng' value="">
+                <br>
+                <span id="endDay"></span>
+                <input type="date" id='ngaycuoiky' value="">
             </div>
             <div class="content">
                 <input id="submitBox" onclick="send(); return false;" type="submit" value="Gửi">
             </div>
         </form>
+        <div id="bill"></div>
     </div>
     <script src="../js/index.js"></script>
 </body>
